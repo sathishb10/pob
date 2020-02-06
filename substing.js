@@ -320,27 +320,6 @@ function lengthofsubstring(s){
    //     //18183 18042
    // ==========================================================
    
-       function goal(first,second){
-     var position=0
-     var total=0
-     for(var i=0;i<first.length;i++){
-       for(var j=0;j<second.length;j++){
-           if(first[i]===second[j] && i==j){
-                 position++
-                 total++
-                 break;
-           }
-            else if(first[i]==second[j]){
-                total++
-           }
-       }
-     }
-      console.log("position:"+ +position )
-      console.log("kk:"+ +total )
-   }
-   //goal([1,1,2,1,3,4],[1,1,1,2,5])
-   
-   // =====================================================
-   
+      
    
    
